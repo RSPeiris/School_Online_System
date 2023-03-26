@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\StaffController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,23 +22,28 @@ Route::get('/', function () {
 });
 //admin page
 Route::get('/admin', function () {
-    return view('pages.admin');
+    return view('admin.index');
 });
 //teacher's page
 Route::get('/teacher', function () {
-    return view('teacher');
+    return view('pages.teacher');
 });
 // student page
 Route::get('/student', function () {
-    return view('student');
+    return view('pages.student');
 });
 
 // about us page
 Route::get('/aboutus', function () {
-    return view('aboutus');
+    return view('pages.aboutus');
 });
 
 // contact us page
 Route::get('/contactus', function () {
     return view('pages.contactus');
 });
+
+// Route::get('/staff', function () {
+//     return view('admin.staff');
+// });
+Route::resource('staff',StaffController::class);
