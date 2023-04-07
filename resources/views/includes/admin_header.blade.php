@@ -19,7 +19,7 @@
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                           <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
                                     <a href="index.html">Dashboard 1</a>
                                 </li>
@@ -39,20 +39,20 @@
                                 <i class="fas fa-chart-bar"></i>Teacher</a>
                         </li>
                         <li>
-                            <a href="table.html">
-                                <i class="fas fa-table"></i>Tables</a>
+                            <a href="{{url('/student')}}">
+                                <i class="fas fa-table"></i>Students</a>
                         </li>
                         <li>
                             <a href="form.html">
-                                <i class="far fa-check-square"></i>Forms</a>
+                                <i class="far fa-check-square"></i>Employees</a>
                         </li>
                         <li>
-                            <a href="calendar.html">
-                                <i class="fas fa-calendar-alt"></i>Calendar</a>
+                            <a href=>
+                                <i class="fas fa-calendar-alt"></i>Classes</a>
                         </li>
                         <li>
-                            <a href="map.html">
-                                <i class="fas fa-map-marker-alt"></i>Maps</a>
+                            <a href=>
+                                <i class="fas fa-map-marker-alt"></i>Subjects</a>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">

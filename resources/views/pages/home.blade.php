@@ -11,7 +11,9 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="https://placehold.it/1200x400?text=IMAGE" alt="Image">
+      
+        <img src="images/icon/home.jpg" alt="Image" >
+      
         <div class="carousel-caption">
         </div>      
       </div>
@@ -23,15 +25,15 @@
   <br>
   <div class="row">
     <div class="col-sm-4">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="images/icon/admin.png" class="img-responsive" style="width:50%" alt="Image">
       <p>Admin</p>
     </div>
     <div class="col-sm-4"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="images/icon/teacher.svg" class="img-responsive" style="width:50%" alt="Image">
       <p>Teacher</p>    
     </div>
     <div class="col-sm-4"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="images/icon/student.png" class="img-responsive" style="width:50%" alt="Image">
       <p>Student</p>    
     </div>
     

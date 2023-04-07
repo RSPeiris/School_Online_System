@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StaffController;
+use App\Http\Controllers\StudentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,7 +44,67 @@ Route::get('/contactus', function () {
     return view('pages.contactus');
 });
 
+// class (admin) page
+Route::get('/class', function () {
+    return view('admin.class');
+});
+
+// subjects (admin) page
+Route::get('/subject', function () {
+    return view('admin.subject');
+});
+
+
+// employee (admin) page
+Route::get('/employee', function () {
+    return view('admin.employee');
+});
+
+// fee (admin) page
+Route::get('/fee', function () {
+    return view('admin.fee');
+});
+
+
+// salary (admin) page
+Route::get('/salary', function () {
+    return view('admin.salary');
+});
+
+
+// attendance (admin) page
+Route::get('/attendance', function () {
+    return view('admin.attendance');
+});
+
+// timetable (admin) page
+Route::get('/timetable', function () {
+    return view('admin.timetable');
+});
+
+
+// exam (admin) page
+Route::get('/exam', function () {
+    return view('admin.exam');
+});
+
+
+//report (admin) page
+Route::get('/report', function () {
+    return view('admin.report');
+});
 // Route::get('/staff', function () {
 //     return view('admin.staff');
 // });
+
+Route::get('/students', function () {
+  return view('admin.student');
+});
+
+
+
 Route::resource('staff',StaffController::class);
+Route::resource('student',StudentController::class);
+
+
+
